@@ -8,7 +8,7 @@ keywords_df = pd.read_csv("{local_file_location}")
 keywords = keywords_df["Keyword"].tolist()
 
 # NY Times API configuration
-api_key = "8XJAMdZ2ESk2cy3vFePtUuomemCCzGxY"  # Replace with your NY Times API key
+api_key = "nyt_api_key"  # Replace with your NY Times API key
 url = "https://api.nytimes.com/svc/search/v2/articlesearch.json"
 
 # Output file
